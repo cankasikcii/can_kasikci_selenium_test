@@ -32,9 +32,7 @@ public class CareerTest extends BaseTest {
     qaPage.filterByLocation("Istanbul, Turkiye");
     qaPage.filterByDepartment("Quality Assurance");
 
-
     assertTrue(qaPage.isJobListDisplayed(), "Job list is not displayed.");
-
     assertTrue(qaPage.areAllJobsValid("Quality Assurance", "Quality Assurance", "Istanbul, Turkiye"),
                "Some jobs do not match the expected Department or Location.");
 

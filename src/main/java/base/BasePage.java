@@ -51,8 +51,7 @@ public class BasePage {
         "const el = arguments[0];" +
         "const rect = el.getBoundingClientRect();" +
         "window.scrollBy({ top: rect.top - (window.innerHeight / 2) + (rect.height / 2), behavior: 'smooth' });",
-        element
-                                               );
+        element);
   }
 
   protected void hoverElement(WebElement element) {

@@ -23,7 +23,7 @@ public class HomePage extends BasePage {
     super(driver);
   }
 
-  public void acceptCookies(){
+  public void acceptCookies() {
     waitAndClick(acceptAllCookies);
     waitUntilInvisible(cookieInfoBar);
   }
