@@ -1,0 +1,8 @@
+<suite name="Career Tests">
+	<parameter name="browser" value="chrome" />
+	<test name="QA Job Filter Test">
+		<classes>
+			<class name="tests.CareerTest"/>
+		</classes>
+	</test>
+</suite>
